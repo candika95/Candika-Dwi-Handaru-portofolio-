@@ -156,14 +156,7 @@ export const projects = [
 
 export const experienceData = [
   {
-    title: 'Software Engineer',
-    organization: 'Badan Riset dan Inovasi Nasional',
-    location: 'Remote',
-    period: 'Feb 2025 – Present',
-    description: 'Designed scalable application architecture and backend using Next.js. Built relational data models with PostgreSQL and managed deployment using Docker Compose.',
-  },
-  {
-    title: 'Software Developer Intern',
+    title: 'Software Developer',
     organization: 'Badan Riset dan Inovasi Nasional',
     location: 'Remote',
     period: 'Feb 2025 – Jun 2025',
@@ -182,13 +175,6 @@ export const experienceData = [
     location: 'Remote',
     period: 'Sep 2024 – Dec 2024',
     description: 'Programmed microcontrollers and designed flood detection hardware using sensor integrations.',
-  },
-  {
-    title: 'Data Visualization Intern',
-    organization: 'PT Asuransi Tugu Pratama Indonesia Tbk',
-    location: 'Remote',
-    period: 'Sep 2023 – Jan 2025',
-    description: 'Developed a data dashboard that visualized predictive models and allowed stakeholders to manipulate parameters for business analysis.',
   },
   {
     title: 'Lab Assistant – Actuator Systems',
@@ -212,7 +198,7 @@ export const experienceData = [
     description: 'Managed merchandise inventory and registration during Indonesia’s largest film market event.',
   },
   {
-    title: 'Event Staff & Usher',
+    title: 'Staff of Equipment & Usher',
     organization: 'Pionir Gadjah Mada',
     location: 'UGM',
     period: 'Mar 2024 – Aug 2024',
@@ -225,6 +211,20 @@ export const experienceData = [
     period: 'Jan 2024',
     description: 'Operated registration and managed robotics arena during international robotics competition.',
   },
+  {
+    title: 'Data Visualization Intern',
+    organization: 'PT Asuransi Tugu Pratama Indonesia Tbk',
+    location: 'Remote',
+    period: 'Sep 2023 – Jan 2024',
+    description: 'Developed a data dashboard that visualized predictive models and allowed stakeholders to manipulate parameters for business analysis.',
+  },
+  {
+    title: 'Programmer',
+    organization: 'Elins Research Club',
+    location: 'Universitas Gadjah Mada',
+    period: 'Jan 2023 – Jan 2024',
+    description: 'Actively engaged in hardware and software innovation projects, leveraging Arduino, ESP32, and sensors for hardware while also building web applications using Go, Python, and JavaScript (Next.js, React, Express). Explored machine learning techniques for computer vision using CNN, Mobilenet, EfficientNet, and YOLO.',
+  }
 ];
 
 export const educationData = [
