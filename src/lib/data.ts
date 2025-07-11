@@ -4,7 +4,7 @@ export const navLinks = [
   { id: 'home', title: 'Home' },
   { id: 'about', title: 'About' },
   { id: 'projects', title: 'Projects' },
-  { id: 'skills', title: 'Skills' },
+  // { id: 'skills', title: 'Skills' },
   { id: 'experience', title: 'Experience' },
   { id: 'contact', title: 'Contact' },
 ];
@@ -29,7 +29,7 @@ export const socialLinks = [
 
 export const aboutData = {
   bio: `Hi, I'm Candika Dwi Handaru, usually called Candika. I'm a sixth-semester Electronics and Instrumentation student at Universitas Gadjah Mada. I'm passionate about the latest technological advancements and always eager to explore new developments in the field. My interests span across Artificial Intelligence, Cloud Computing, Software Development, and Hardware Systems. Through my studies and hands-on projects, I aim to contribute to innovative solutions by exploring how cutting-edge technologies can address real-world challenges.`,
-  mission: `My goal is to create accessible and impactful technology by applying interdisciplinary knowledge across software and hardware fields. I’m continuously learning, building, and collaborating on projects that enhance human-centered innovation.`,
+  mission: `My goal is to create accessible and impactful technology by applying interdisciplinary knowledge across software and hardware fields. I'm continuously learning, building, and collaborating on projects that enhance human-centered innovation.`,
   education: `Undergraduate Electronics and Instrumentation, Universitas Gadjah Mada (Expected 2026), GPA: 3.54`,
   experience: `Hands-on experience in backend and hardware development, including national-scale internships and tech competitions. Actively seeking research and innovation environments where I can apply both software and electronics skills.`,
   // achievements: `Dean's List (2022–2023), Winner of University Hackathon 2023, Cloud Track Graduate of Bangkit Academy 2024, Lead Developer on multiple research-backed IoT and software projects.`,
@@ -134,7 +134,7 @@ export const projects = [
     description: 'Directed mechanical and system integration for a large-scale interactive art installation as part of student creativity showcase.',
     image: '/cakra.png',
     category: 'art-tech',
-    technologies: ['Hardware Design', 'Sensor Systems', 'Arduino'],
+    technologies: ['Hardware Design', 'Problem Solving', 'Leadership'],
     links: {
       demo: '',
       github: '',
@@ -147,6 +147,18 @@ export const projects = [
     image: '/g.png',
     category: 'hardware',
     technologies: ['Microcontroller', 'IoT Sensors', 'C Programming'],
+    links: {
+      demo: '',
+      github: '',
+    },
+  },
+  {
+    id: 5,
+    title: 'KKN Profil Desa',
+    description: 'Developed a comprehensive village profile website during community service program, featuring village demographics, government structure, activity documentation, local business directory, and community information management system.',
+    image: '/image.png',
+    category: 'web',
+    technologies: ['React.js', 'TypeScript', 'CSS', 'Node.js'],
     links: {
       demo: '',
       github: '',
@@ -195,7 +207,7 @@ export const experienceData = [
     organization: 'JAFF',
     location: 'Yogyakarta',
     period: 'Nov 2024 – Dec 2024',
-    description: 'Managed merchandise inventory and registration during Indonesia’s largest film market event.',
+    description: "Managed merchandise inventory and registration during Indonesia's largest film market event.",
   },
   {
     title: 'Staff of Equipment & Usher',
@@ -229,7 +241,7 @@ export const experienceData = [
 
 export const educationData = [
   {
-    title: 'Bachelor’s Degree in Electronics and Instrumentation',
+    title: "Bachelor's Degree in Electronics and Instrumentation",
     organization: 'Universitas Gadjah Mada',
     location: 'Yogyakarta, Indonesia',
     period: 'Jul 2022 – Present',
